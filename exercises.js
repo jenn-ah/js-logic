@@ -159,6 +159,14 @@ console.log(isEqual("seriously", "seriously"));
  * Console.log your result.
 */
 
+function notEqual(first, second){
+  if (first !== second) {
+    return "7. " + "Opposites do attract."
+  } else {
+    return "7. " + "Cause it's like you're my mirror."
+  }
+}
+console.log(notEqual("purple", "pink"));
 
 /*
  * #8
