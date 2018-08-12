@@ -180,7 +180,14 @@ console.log(notEqual("purple", "pink"));
  * Console.log your result.
 */ 
 
-
+function spareChange(money){
+  if (money > 100){
+    return "8. " + true;
+  } else {
+    return "8. " + false;
+  }
+}
+console.log(spareChange(102));
 
 /*
  * #9
