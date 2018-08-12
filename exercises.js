@@ -33,9 +33,9 @@ console.log('my first commit');
 
 function canVote(age){
   if(age >= 18){
-    return true;
+    return "1. " + true;
   }else{
-    return false;
+    return "1. " + false;
   }
 
 }
@@ -55,9 +55,9 @@ console.log(canVote(19));
 
 function login(password){
   if (password === "test1234"){
-  return "Login Success!"
+  return "2. " + "Login Success!"
 }else{
-  return false;
+  return "2. " + false;
 }
 }
 console.log(login("test1234"));
@@ -77,9 +77,9 @@ console.log(login("test1234"));
 
 function isGreaterThan(first, second){
   if (first > second){
-    return true;
+    return "3. " + true;
   }else{
-    return false;
+    return "3. " + false;
   }
 }
 console.log(isGreaterThan(6,10));
@@ -97,9 +97,9 @@ console.log(isGreaterThan(6,10));
 
 function mustBeTrue(boo){
   if (boo === true){
-    return true;
+    return "4. " + true;
   }else{
-    return false;
+    return "4. " + false;
   }
 }
 console.log(mustBeTrue(true));
@@ -116,7 +116,14 @@ console.log(mustBeTrue(true));
  * Console.log your result.
 */
 
-
+function bigBird(word){
+  if (word.length === 3){
+    return "5. " + "Word to Big Bird!";
+  }else{
+    return "5. " + false;
+  }
+}
+console.log(bigBird("yoo"));
 
 /*
  * #6
@@ -131,7 +138,14 @@ console.log(mustBeTrue(true));
  * Console.log your result.
 */
 
-
+function isEqual(first, second){
+  if (first === second){
+    return "6. " + "You look mahvelous!"
+  }else{
+    return "6. " + "I don't know who you are anymore."
+  }
+}
+console.log(isEqual("seriously", "seriously"));
 /*
  * #7
  * Function - notEqual
